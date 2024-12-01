@@ -3,6 +3,6 @@ import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://pablosblog.dev",
+  site: "https://endlessqueue.com",
   integrations: [mdx()],
 });

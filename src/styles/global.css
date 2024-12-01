@@ -12,7 +12,20 @@
   --pico-font-family: "IBM Plex Sans", system-ui;
 }
 
-.blog-title {
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
+.title-dot {
+  height: 20px;
+  width: 20px;
+  margin-right: 1rem;
+  border-radius: 50%;
+  background-color: var(--pico-primary);
+  margin-bottom: var(--pico-typography-spacing-vertical);
+}
+
+.title-font {
   font-family: "IBM Plex Mono", monospace;
-  text-transform: uppercase;
 }

@@ -3,10 +3,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import Header from "../components/Header.astro";
 import PostsList from "../components/PostsList.astro";
 
-const pageTitle = "Pablo's Blog";
+const pageTitle = "Endless Queue";
+const pageDescription =
+  "A simple explorative journey through the fascinating world of computer science, cloud computing, and AI";
 ---
 
-<BaseLayout pageTitle={pageTitle}>
+<BaseLayout pageTitle={pageTitle} pageDescription={pageDescription}>
   <Header />
   <PostsList />
 </BaseLayout>
